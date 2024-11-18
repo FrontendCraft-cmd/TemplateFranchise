@@ -1,0 +1,1379 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Шаблонный лендинг франшиза</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/libraries.min.css?_v=20241118210607">
+	<link rel="stylesheet" href="css/style.css?_v=20241118210607">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage">
+   <div class="wrapper">
+      <header class="header" itemscope="" itemtype="https://schema.org/WPHeader">
+   <div class="container">
+      <div class="header__row flex-box align-items-center justify-space-between">
+         <a href="#" class="header__burger"></a>
+         <nav class="header__nav">
+            <ul class="header-menu flex-box align-items-center flex-wrap">
+               <li class="header-menu__item">
+                  <a href="#franchise" class="header-menu__link">О франшизе</a>
+               </li>
+               <li class="header-menu__item">
+                  <a href="#format" class="header-menu__link">Форматы</a>
+               </li>
+               <li class="header-menu__item">
+                  <a href="#procedure" class="header-menu__link">Как оформить</a>
+               </li>
+               <li class="header-menu__item">
+                  <a href="#faq" class="header-menu__link">Вопросы</a>
+               </li>
+               <li class="header-menu__item">
+                  <a href="#contacts" class="header-menu__link">Контакты</a>
+               </li>
+            </ul>
+         </nav>
+         <a href="#" class="header__logo">
+            <img src="img/logo.png" alt="">
+         </a>
+         <div class="header__contacts">
+            <a href="tel:+79005006060" class="header__phone">+7 (900) 500 - 60 - 60</a>
+            <a href="#" data-hystmodal="#modal" class="header__btn">
+               <span>Оставить заявку</span>
+            </a>
+         </div>
+         <div class="header-mobile">
+            <div class="header-mobile__close">Закрыть</div>
+            <a href="#" class="header-mobile__logo">
+               <img src="img/logo.png" alt="">
+            </a>
+            <div class="header-mobile__row">
+               <nav class="header-mobile__nav">
+                  <ul class="header-mobile-menu">
+                     <li class="header-mobile-menu__item">
+                        <a href="#franchise" class="header-mobile-menu__link">О франшизе</a>
+                     </li>
+                     <li class="header-mobile-menu__item">
+                        <a href="#format" class="header-mobile-menu__link">Форматы</a>
+                     </li>
+                     <li class="header-mobile-menu__item">
+                        <a href="#procedure" class="header-mobile-menu__link">Как оформить</a>
+                     </li>
+                     <li class="header-mobile-menu__item">
+                        <a href="#faq" class="header-mobile-menu__link">Вопросы</a>
+                     </li>
+                     <li class="header-mobile-menu__item">
+                        <a href="#contacts" class="header-mobile-menu__link">Контакты</a>
+                     </li>
+                  </ul>
+               </nav>
+               <a href="tel:+79005006060" class="header-mobile__phone">+7 (900) 500 - 60 - 60</a>
+               <div class="header-mobile__social">
+                  <a href="#">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                        <path
+                           d="M22 3.66675C11.88 3.66675 3.66663 11.8801 3.66663 22.0001C3.66663 32.1201 11.88 40.3334 22 40.3334C32.12 40.3334 40.3333 32.1201 40.3333 22.0001C40.3333 11.8801 32.12 3.66675 22 3.66675ZM30.5066 16.1334C30.2316 19.0301 29.04 26.0701 28.435 29.3151C28.1783 30.6901 27.665 31.1484 27.1883 31.2034C26.125 31.2951 25.3183 30.5068 24.2916 29.8284C22.6783 28.7651 21.7616 28.1051 20.2033 27.0784C18.3883 25.8867 19.5616 25.2267 20.6066 24.1634C20.8816 23.8884 25.575 19.6167 25.6666 19.2317C25.6794 19.1734 25.6777 19.1129 25.6617 19.0554C25.6457 18.9979 25.6159 18.9451 25.575 18.9017C25.465 18.8101 25.3183 18.8467 25.19 18.8651C25.025 18.9017 22.4583 20.6067 17.4533 23.9801C16.72 24.4751 16.06 24.7317 15.4733 24.7134C14.8133 24.6951 13.5666 24.3467 12.6316 24.0351C11.4766 23.6684 10.5783 23.4667 10.6516 22.8251C10.6883 22.4951 11.1466 22.1651 12.0083 21.8167C17.3616 19.4884 20.9183 17.9484 22.6966 17.2151C27.7933 15.0884 28.8383 14.7217 29.535 14.7217C29.6816 14.7217 30.03 14.7584 30.25 14.9417C30.4333 15.0884 30.4883 15.2901 30.5066 15.4367C30.4883 15.5467 30.525 15.8767 30.5066 16.1334Z"
+                           fill="" />
+                     </svg>
+                  </a>
+                  <a href="#">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">
+                        <path
+                           d="M21.5 16.0086C18.1829 16.0086 15.5086 18.7086 15.5086 22C15.5086 25.2914 18.2086 27.9914 21.5 27.9914C24.7914 27.9914 27.4914 25.2914 27.4914 22C27.4914 18.7086 24.7914 16.0086 21.5 16.0086ZM39.5 22C39.5 19.5057 39.5 17.0629 39.3714 14.5686C39.2429 11.6886 38.5743 9.11714 36.4657 7.03429C34.3571 4.92571 31.8114 4.25714 28.9314 4.12857C26.4371 4 23.9943 4 21.5 4C19.0057 4 16.5629 4 14.0686 4.12857C11.1886 4.25714 8.61714 4.92571 6.53429 7.03429C4.42571 9.14286 3.75714 11.6886 3.62857 14.5686C3.5 17.0629 3.5 19.5057 3.5 22C3.5 24.4943 3.5 26.9371 3.62857 29.4314C3.75714 32.3114 4.42571 34.8829 6.53429 36.9657C8.64286 39.0743 11.1886 39.7429 14.0686 39.8714C16.5629 40 19.0057 40 21.5 40C23.9943 40 26.4371 40 28.9314 39.8714C31.8114 39.7429 34.3829 39.0743 36.4657 36.9657C38.5743 34.8571 39.2429 32.3114 39.3714 29.4314C39.5257 26.9629 39.5 24.4943 39.5 22ZM21.5 31.2314C16.3829 31.2314 12.2686 27.1171 12.2686 22C12.2686 16.8829 16.3829 12.7686 21.5 12.7686C26.6171 12.7686 30.7314 16.8829 30.7314 22C30.7314 27.1171 26.6171 31.2314 21.5 31.2314ZM31.1171 14.5429C29.9343 14.5429 28.9571 13.5914 28.9571 12.3829C28.9571 11.1743 29.9086 10.2229 31.1171 10.2229C32.3257 10.2229 33.2771 11.1743 33.2771 12.3829C33.2836 12.6645 33.2322 12.9445 33.1261 13.2055C33.0199 13.4665 32.8613 13.7029 32.66 13.9C32.4629 14.1013 32.2265 14.2599 31.9655 14.3661C31.7045 14.4722 31.4245 14.5237 31.1429 14.5171L31.1171 14.5429Z"
+                           fill="" />
+                     </svg>
+                  </a>
+                  <a href="#">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <mask id="mask0_658_1265" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
+                           width="36" height="36">
+                           <path d="M0.583374 0.583252H35.4167V35.4166H0.583374V0.583252Z" fill="white" />
+                        </mask>
+                        <g mask="url(#mask0_658_1265)">
+                           <path
+                              d="M21.2817 0.839953L20.2367 0.693286C17.0961 0.239825 13.8913 0.688437 10.9959 1.98682C8.10046 3.28521 5.63377 5.37987 3.88337 8.02662C2.02099 10.5566 0.91078 13.561 0.680503 16.694C0.450225 19.8271 1.10924 22.9615 2.58171 25.7366C2.7324 26.0147 2.82622 26.3201 2.8577 26.6349C2.88917 26.9496 2.85768 27.2675 2.76504 27.57C2.01337 30.155 1.31671 32.7583 0.583374 35.49L1.50004 35.215C3.97504 34.555 6.45004 33.895 8.92504 33.29C9.44743 33.1813 9.99042 33.2325 10.4834 33.4366C12.7039 34.5203 15.1306 35.1166 17.6005 35.1852C20.0704 35.2539 22.5264 34.7935 24.8037 33.8349C27.0811 32.8762 29.127 31.4416 30.8042 29.6272C32.4815 27.8127 33.7512 25.6606 34.5282 23.315C35.3052 20.9695 35.5715 18.4849 35.3092 16.028C35.047 13.5711 34.2622 11.1987 33.0076 9.07007C31.753 6.94142 30.0576 5.10574 28.0352 3.68625C26.0127 2.26675 23.7101 1.29628 21.2817 0.839953ZM25.9017 24.8933C25.2354 25.4898 24.4229 25.8991 23.5469 26.0795C22.6709 26.2598 21.7628 26.2048 20.915 25.92C17.0734 24.8382 13.7405 22.4279 11.51 19.1183C10.6581 17.9478 9.97316 16.6643 9.47504 15.305C9.20527 14.5162 9.15662 13.6686 9.33438 12.8542C9.51213 12.0398 9.9095 11.2896 10.4834 10.685C10.7627 10.3284 11.143 10.0642 11.5747 9.9269C12.0063 9.78956 12.4693 9.78539 12.9034 9.91495C13.27 10.0066 13.5267 10.5383 13.8567 10.9416C14.1244 11.6988 14.4379 12.4395 14.7917 13.16C15.0602 13.5275 15.1723 13.9864 15.1036 14.4364C15.0349 14.8864 14.7909 15.2909 14.425 15.5616C13.6 16.295 13.7284 16.9 14.315 17.725C15.612 19.5934 17.4016 21.0657 19.485 21.9783C20.0717 22.235 20.5117 22.29 20.8967 21.685C21.0617 21.4466 21.2817 21.245 21.465 21.025C22.5284 19.6866 22.1984 19.705 23.885 20.4383C24.4222 20.6638 24.9429 20.9278 25.4434 21.2266C25.9384 21.52 26.69 21.8316 26.8 22.2716C26.9059 22.749 26.878 23.2462 26.7195 23.7088C26.561 24.1713 26.2781 24.5812 25.9017 24.8933Z"
+                              fill="" />
+                        </g>
+                     </svg>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+      <main class="page">
+         <section class="index-row margin-bottom-row">
+            <div class="container">
+               <div class="hero">
+                  <div class="hero__top">
+                     <div class="hero__title">
+                        Открой свою кофейню
+                     </div>
+                     <div class="hero__text">
+                        Прибыль с первого месяца до 200 000 рублей
+                     </div>
+                  </div>
+                  <div class="hero__row grid-box col-4">
+                     <div class="hero__item">
+                        <div class="hero__img">
+                           <img src="img/hero/01.png" alt="">
+                        </div>
+                        <div class="hero__info">
+                           <p>
+                              Готовые интерьеры <br>
+                              и меню
+                           </p>
+                        </div>
+                     </div>
+                     <div class="hero__item">
+                        <div class="hero__img">
+                           <img src="img/hero/02.png" alt="">
+                        </div>
+                        <div class="hero__info">
+                           <p>
+                              Готовые интерьеры <br>
+                              и меню
+                           </p>
+                        </div>
+                     </div>
+                     <div class="hero__item">
+                        <div class="hero__img">
+                           <img src="img/hero/03.png" alt="">
+                        </div>
+                        <div class="hero__info">
+                           <p>
+                              Готовые интерьеры <br>
+                              и меню
+                           </p>
+                        </div>
+                     </div>
+                     <div class="hero__item">
+                        <div class="hero__img">
+                           <img src="img/hero/04.png" alt="">
+                        </div>
+                        <div class="hero__info">
+                           <p>
+                              Готовые интерьеры <br>
+                              и меню
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row margin-bottom-row" id="franchise">
+            <div class="container">
+               <div class="franchise">
+                  <div class="franchise__content">
+                     <div class="title">
+                        о франшизе
+                     </div>
+                     <div class="franchise__info">
+                        <p>
+                           История создания франчайзинговой сети кофеен берет свои начало в 1950-х годах в США. Тогда
+                           компания «Donut and Coffee» была основана в Калифорнии, где предлагала покупателям донаты и
+                           кофе. В 1960-х годах компания была переименована в «Donut Stores» и начала развивать
+                           франчайзинговую сеть, запуская кофейни по всему миру.
+                        </p>
+                        <p>
+                           В 1970-х годах франчайзинговая сеть кофеен продолжила свою экспансию, и в 1980-х годах
+                           появилась компания «Starbucks», которая также начала развивать франчайзинговую сеть кофеен. В
+                           1990-х годах компания «Starbucks» стала одним из лидеров на рынке кофейных франчайзинговых
+                           сетей.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="franchise__img">
+                     <img src="img/franchise/01.png" alt="">
+                  </div>
+               </div>
+               <div class="franchise__row">
+                  <div class="franchise__item">
+                     <p>
+                        14 лет
+                     </p>
+                     <span>
+                        всей сети кофеен
+                     </span>
+                  </div>
+                  <div class="franchise__item">
+                     <p>
+                        380 млн.
+                     </p>
+                     <span>
+                        оборот сети в год
+                     </span>
+                  </div>
+                  <div class="franchise__item">
+                     <p>
+                        1 080 точек
+                     </p>
+                     <span>
+                        по стране
+                     </span>
+                  </div>
+                  <div class="franchise__item">
+                     <p>
+                        810 тн.
+                     </p>
+                     <span>
+                        кофе выпито у нас
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row margin-bottom-row" id="format">
+            <div class="container">
+               <div class="title">
+                  форматы
+               </div>
+               <div class="format">
+                  <div class="format__card">
+                     <div class="format__img">
+                        <img src="img/format/01.png" alt="">
+                     </div>
+                     <div class="format__info">
+                        <div class="format__title">
+                           Киоск
+                        </div>
+                        <div class="format__row">
+                           <div class="format__item">
+                              <div class="format__top">
+                                 Формат:
+                              </div>
+                              <div class="format__body">
+                                 <p>
+                                    Кофе навынос
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="format__item">
+                              <div class="format__top">
+                                 Подходит для:
+                              </div>
+                              <div class="format__body">
+                                 <ul>
+                                    <li>пешеходных зон</li>
+                                    <li>парков</li>
+                                    <li>скверов</li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="format__item">
+                              <div class="format__top">
+                                 Вид помещения
+                              </div>
+                              <div class="format__body">
+                                 небольшой мобильный вагончик, всесезоннный
+                              </div>
+                           </div>
+                        </div>
+                        <div class="format__price">
+                           <div class="format__contribution">
+                              Взнос <span>170 000</span> ₽
+                           </div>
+                           <div class="format__revenue">
+                              Выручка ≈ <span>180 000</span> ₽ в мес
+                           </div>
+                        </div>
+                        <a href="#" data-hystmodal="#modal" class="format__btn button">
+                           <span>Получить бизнес-план</span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="format__card">
+                     <div class="format__img">
+                        <img src="img/format/02.png" alt="">
+                     </div>
+                     <div class="format__info">
+                        <div class="format__title">
+                           Кофейня с посадкой
+                        </div>
+                        <div class="format__row">
+                           <div class="format__item">
+                              <div class="format__top">
+                                 Формат:
+                              </div>
+                              <div class="format__body">
+                                 <p>
+                                    Кофе навынос
+                                 </p>
+                                 <p>
+                                    Столики
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="format__item">
+                              <div class="format__top">
+                                 Подходит для:
+                              </div>
+                              <div class="format__body">
+                                 <ul>
+                                    <li>торговых помещений</li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="format__item">
+                              <div class="format__top">
+                                 Вид помещения
+                              </div>
+                              <div class="format__body">
+                                 <p>
+                                    аренда помещения
+                                    с мини-кухней
+                                    и посадочными местами
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="format__price">
+                           <div class="format__contribution">
+                              Взнос <span>250 000</span> ₽
+                           </div>
+                           <div class="format__revenue">
+                              Выручка ≈ <span>340 000</span> ₽ в мес
+                           </div>
+                        </div>
+                        <a href="#" data-hystmodal="#modal" class="format__btn button">
+                           <span>Получить бизнес-план</span>
+                        </a>
+                     </div>
+                  </div>
+                  <div class="format__card">
+                     <div class="format__img">
+                        <img src="img/format/03.png" alt="">
+                     </div>
+                     <div class="format__info">
+                        <div class="format__title">
+                           Островок
+                        </div>
+                        <div class="format__row">
+                           <div class="format__item">
+                              <div class="format__top">
+                                 Формат:
+                              </div>
+                              <div class="format__body">
+                                 <p>
+                                    Кофе навынос
+                                 </p>
+                                 <p>
+                                    Столики
+                                 </p>
+                              </div>
+                           </div>
+                           <div class="format__item">
+                              <div class="format__top">
+                                 Подходит для:
+                              </div>
+                              <div class="format__body">
+                                 <ul>
+                                    <li>торговых помещений</li>
+                                    <li>деловых центров</li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class="format__item">
+                              <div class="format__top">
+                                 Вид помещения
+                              </div>
+                              <div class="format__body">
+                                 <p>
+                                    аренда помещения
+                                    с мини-кухней
+                                    и посадочными местами
+                                 </p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="format__price">
+                           <div class="format__contribution">
+                              Взнос <span>200 000</span> ₽
+                           </div>
+                           <div class="format__revenue">
+                              Выручка ≈ <span>300 000</span> ₽ в мес
+                           </div>
+                        </div>
+                        <a href="#" data-hystmodal="#modal" class="format__btn button">
+                           <span>Получить бизнес-план</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="format__slider">
+                  <div class="format__slide">
+                     <div class="format__card">
+                        <div class="format__img">
+                           <img src="img/format/01.png" alt="">
+                        </div>
+                        <div class="format__info">
+                           <div class="format__title">
+                              Киоск
+                           </div>
+                           <div class="format__row">
+                              <div class="format__item">
+                                 <div class="format__top">
+                                    Формат:
+                                 </div>
+                                 <div class="format__body">
+                                    <p>
+                                       Кофе навынос
+                                    </p>
+                                 </div>
+                              </div>
+                              <div class="format__item">
+                                 <div class="format__top">
+                                    Подходит для:
+                                 </div>
+                                 <div class="format__body">
+                                    <ul>
+                                       <li>пешеходных зон</li>
+                                       <li>парков</li>
+                                       <li>скверов</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="format__item">
+                                 <div class="format__top">
+                                    Вид помещения
+                                 </div>
+                                 <div class="format__body">
+                                    небольшой мобильный вагончик, всесезоннный
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="format__price">
+                              <div class="format__contribution">
+                                 Взнос <span>170 000</span> ₽
+                              </div>
+                              <div class="format__revenue">
+                                 Выручка ≈ <span>180 000</span> ₽ в мес
+                              </div>
+                           </div>
+                           <a href="#" data-hystmodal="#modal" class="format__btn button">
+                              <span>Получить бизнес-план</span>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="format__slide">
+                     <div class="format__card">
+                        <div class="format__img">
+                           <img src="img/format/02.png" alt="">
+                        </div>
+                        <div class="format__info">
+                           <div class="format__title">
+                              Кофейня с посадкой
+                           </div>
+                           <div class="format__row">
+                              <div class="format__item">
+                                 <div class="format__top">
+                                    Формат:
+                                 </div>
+                                 <div class="format__body">
+                                    <p>
+                                       Кофе навынос
+                                    </p>
+                                    <p>
+                                       Столики
+                                    </p>
+                                 </div>
+                              </div>
+                              <div class="format__item">
+                                 <div class="format__top">
+                                    Подходит для:
+                                 </div>
+                                 <div class="format__body">
+                                    <ul>
+                                       <li>торговых помещений</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="format__item">
+                                 <div class="format__top">
+                                    Вид помещения
+                                 </div>
+                                 <div class="format__body">
+                                    <p>
+                                       аренда помещения
+                                       с мини-кухней
+                                       и посадочными местами
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="format__price">
+                              <div class="format__contribution">
+                                 Взнос <span>250 000</span> ₽
+                              </div>
+                              <div class="format__revenue">
+                                 Выручка ≈ <span>340 000</span> ₽ в мес
+                              </div>
+                           </div>
+                           <a href="#" data-hystmodal="#modal" class="format__btn button">
+                              <span>Получить бизнес-план</span>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="format__slide">
+                     <div class="format__card">
+                        <div class="format__img">
+                           <img src="img/format/03.png" alt="">
+                        </div>
+                        <div class="format__info">
+                           <div class="format__title">
+                              Островок
+                           </div>
+                           <div class="format__row">
+                              <div class="format__item">
+                                 <div class="format__top">
+                                    Формат:
+                                 </div>
+                                 <div class="format__body">
+                                    <p>
+                                       Кофе навынос
+                                    </p>
+                                    <p>
+                                       Столики
+                                    </p>
+                                 </div>
+                              </div>
+                              <div class="format__item">
+                                 <div class="format__top">
+                                    Подходит для:
+                                 </div>
+                                 <div class="format__body">
+                                    <ul>
+                                       <li>торговых помещений</li>
+                                       <li>деловых центров</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="format__item">
+                                 <div class="format__top">
+                                    Вид помещения
+                                 </div>
+                                 <div class="format__body">
+                                    <p>
+                                       аренда помещения
+                                       с мини-кухней
+                                       и посадочными местами
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="format__price">
+                              <div class="format__contribution">
+                                 Взнос <span>200 000</span> ₽
+                              </div>
+                              <div class="format__revenue">
+                                 Выручка ≈ <span>300 000</span> ₽ в мес
+                              </div>
+                           </div>
+                           <a href="#" data-hystmodal="#modal" class="format__btn button">
+                              <span>Получить бизнес-план</span>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- <section class="index-row margin-bottom-row">
+            <div class="container">
+               <div class="title">Рассчитайте прибыль</div>
+               <div class="calculator" id="calculator-vue">
+                  <div class="calculator-computing">
+                     <div class="calculator-computing__step">
+                        <div class="calculator-computing__title">
+                           <span>1</span>
+                           <p>Место размещения:</p>
+                        </div>
+                        <div class="calculator-computing__row">
+                           <label class="calculator-computing__item">
+                              <input type="radio" value="1" name="place" checked>
+                              <p><span>торговый центр</span></p>
+                           </label>
+                           <label class="calculator-computing__item">
+                              <input type="radio" value="2" name="place">
+                              <p><span>бизнес-центр</span></p>
+                           </label>
+                           <label class="calculator-computing__item">
+                              <input type="radio" value="3" name="place">
+                              <p><span>улица</span></p>
+                           </label>
+                        </div>
+                     </div>
+                     <div class="calculator-computing__step">
+                        <div class="calculator-computing__title">
+                           <span>2</span>
+                           <p>Проходимость (чел/день)</p>
+                        </div>
+                        <div class="calculator-computing__price">
+                           <div class="calculator-computing__current">1 300</div>
+                           <div class="calculator-computing__start">500</div>
+                           <div class="calculator-computing__end">10 000</div>
+                           <input class="calculator-computing__slider" type="range" min="500" max="10000" value="0">
+                        </div>
+                     </div>
+                     <div class="calculator-computing__step">
+                        <div class="calculator-computing__title">
+                           <span>3</span>
+                           <p>Арендная ставка в месяц</p>
+                        </div>
+                        <div class="calculator-computing__price">
+                           <div class="calculator-computing__current">48 000</div>
+                           <div class="calculator-computing__start">5 000</div>
+                           <div class="calculator-computing__end">150 000</div>
+                           <input class="calculator-computing__slider" type="range" min="5000" max="150000">
+                        </div>
+                     </div>
+                     <div class="calculator-computing__step">
+                        <div class="calculator-computing__title">
+                           <span>4</span>
+                           <p>Конверсия:</p>
+                        </div>
+                        <div class="calculator-computing__row">
+                           <label class="calculator-computing__item">
+                              <input type="radio" value="1" name="conversion" checked>
+                              <p><span>1 - 3</span></p>
+                           </label>
+                           <label class="calculator-computing__item">
+                              <input type="radio" value="2" name="conversion">
+                              <p><span>3 - 6</span></p>
+                           </label>
+                           <label class="calculator-computing__item">
+                              <input type="radio" value="3" name="conversion">
+                              <p><span>7 - 10</span></p>
+                           </label>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="calculator-result">
+                     <div class="calculator-result__content">
+                        <div class="calculator-result__title">
+                           Расчётная чистая прибыль:
+                        </div>
+                        <div class="calculator-result__profit">
+                           ≈ <span>386 070</span> ₽ в мес
+                        </div>
+                        <div class="calculator-result__title">
+                           Экономические показатели:
+                        </div>
+                        <div class="calculator-result__row">
+                           <div class="calculator-result__item">
+                              <p>Оборот:</p>
+                              <p>
+                                 <span>755 000</span> ₽ в мес
+                              </p>
+                           </div>
+                           <div class="calculator-result__item">
+                              <p>Рентабельность:</p>
+                              <p>
+                                 <span>52</span>%
+                              </p>
+                           </div>
+                           <div class="calculator-result__item">
+                              <p>Налоговые ставки:</p>
+                              <p>
+                                 УСН 6% - <span>46 500</span> ₽ в мес
+                              </p>
+                              <p>
+                                 Патент - <span>14 500</span> ₽ в мес
+                              </p>
+                           </div>
+                        </div>
+                        <a href="#" data-hystmodal="#modal" class="calculator__btn button">
+                           <span>Получить бизнес-план</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section> -->
+         <section class="index-row margin-bottom-row" id="procedure">
+            <div class="container">
+               <div class="title">
+                  Порядок оформления
+               </div>
+               <div class="procedure grid-box">
+                  <div class="procedure__img">
+                     <img src="img/procedure/01.png" alt="">
+                  </div>
+                  <ol class="procedure__list grid-box col-2">
+                     <li class="procedure__item">
+                        <div class="procedure__title">
+                           Выбор формата
+                        </div>
+                        <div class="procedure__text">
+                           Предварительный расчёт прибыли, выбор формата и консультация наших специалистов
+                        </div>
+                     </li>
+                     <li class="procedure__item">
+                        <div class="procedure__title">
+                           Заключение договора
+                        </div>
+                        <div class="procedure__text">
+                           Производим паушальный взнос и подготавливаем договор с помощью юристов
+                        </div>
+                     </li>
+                     <li class="procedure__item">
+                        <div class="procedure__title">
+                           Подбор и подготовка места
+                        </div>
+                        <div class="procedure__text">
+                           Предварительный расчёт прибыли, выбор формата и консультация наших специалистов
+                        </div>
+                     </li>
+                     <li class="procedure__item">
+                        <div class="procedure__title">
+                           Закуп мебели и оборудования
+                        </div>
+                        <div class="procedure__text">
+                           Предварительный расчёт прибыли, выбор формата и консультация наших специалистов
+                        </div>
+                     </li>
+                     <li class="procedure__item">
+                        <div class="procedure__title">
+                           Обучение и тестовый запуск
+                        </div>
+                        <div class="procedure__text">
+                           Предварительный расчёт прибыли, выбор формата и консультация наших специалистов
+                        </div>
+                     </li>
+                     <li class="procedure__item">
+                        <div class="procedure__title">
+                           Открытие кофейни
+                        </div>
+                        <div class="procedure__text">
+                           Предварительный расчёт прибыли, выбор формата и консультация наших специалистов
+                        </div>
+                     </li>
+                  </ol>
+               </div>
+            </div>
+         </section>
+         <section class="index-row margin-bottom-row">
+            <div class="container">
+               <div class="title">
+                  новинки
+               </div>
+               <div class="new-products grid-box col-2">
+                  <div class="new-products__item">
+                     <div class="new-products__info">-14%</div>
+                     <div class="new-products__img">
+                        <img src="img/new-products/01.png" alt="">
+                     </div>
+                     <div class="new-products__body">
+                        <div class="new-products__title">
+                           Новые стильные кофейные автоматы для улиц
+                        </div>
+                        <div class="new-products__text">
+                           Пока действует скидка 14% на паушальный взнос до 09.10.2024 г.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="new-products__item">
+                     <div class="new-products__info">new</div>
+                     <div class="new-products__img">
+                        <img src="img/new-products/02.png" alt="">
+                     </div>
+                     <div class="new-products__body">
+                        <div class="new-products__title">
+                           Новый формат стаканчиков
+                        </div>
+                        <div class="new-products__text">
+                           Более современный и стильный
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row margin-bottom-row" id="reviews">
+            <div class="container">
+               <div class="title">
+                  Отзывы партёров
+               </div>
+               <div class="reviews">
+                  <div class="reviews__slider">
+                     <div class="reviews__slide">
+                        <div class="reviews__item">
+                           <div class="reviews__top">
+                              <div class="reviews__img">
+                                 <img src="img/reviews/01.png" alt="">
+                              </div>
+                              <div class="reviews__info">
+                                 <div class="reviews__name">
+                                    Наталья Самохина
+                                 </div>
+                                 <div class="reviews__city">
+                                    г. Ростов-на-Дону
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="reviews__text">
+                              Я открыла кофейню по франшизе в 2021 году, особо не рассчитывая на прибыльность в
+                              первые два года, но профессиональный подход и обучение помогли нам дойти до точки
+                              окупаемости уже через 8 месяцев.
+                              Я открыла кофейню по франшизе в 2021 году, особо не рассчитывая на прибыльность в
+                              первые два года, но профессиональный подход и обучение помогли нам дойти до точки
+                              окупаемости уже через 8 месяцев.
+                           </div>
+                           <a href="#" class="reviews__btn button read">
+                              <span>Читать дальше</span>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="reviews__slide">
+                        <div class="reviews__item">
+                           <div class="reviews__top">
+                              <div class="reviews__img">
+                                 <img src="img/reviews/02.png" alt="">
+                              </div>
+                              <div class="reviews__info">
+                                 <div class="reviews__name">
+                                    Михаил Шумов
+                                 </div>
+                                 <div class="reviews__city">
+                                    г. Воронеж
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="reviews__text">
+                              Я открыла кофейню по франшизе в 2021 году, особо не рассчитывая на прибыльность в
+                              первые два года, но профессиональный подход и обучение помогли нам дойти до точки
+                              окупаемости уже через 8 месяцев.
+                              Я открыла кофейню по франшизе в 2021 году, особо не рассчитывая на прибыльность в
+                              первые два года, но профессиональный подход и обучение помогли нам дойти до точки
+                              окупаемости уже через 8 месяцев.
+                           </div>
+                           <a href="#" class="reviews__btn button read">
+                              <span>Читать дальше</span>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="reviews__slide">
+                        <div class="reviews__item">
+                           <div class="reviews__top">
+                              <div class="reviews__img">
+                                 <img src="img/reviews/01.png" alt="">
+                              </div>
+                              <div class="reviews__info">
+                                 <div class="reviews__name">
+                                    Наталья Самохина
+                                 </div>
+                                 <div class="reviews__city">
+                                    г. Ростов-на-Дону
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="reviews__text">
+                              Я открыла кофейню по франшизе в 2021 году, особо не рассчитывая на прибыльность в
+                              первые два года, но профессиональный подход и обучение помогли нам дойти до точки
+                              окупаемости уже через 8 месяцев.
+                              Я открыла кофейню по франшизе в 2021 году, особо не рассчитывая на прибыльность в
+                              первые два года, но профессиональный подход и обучение помогли нам дойти до точки
+                              окупаемости уже через 8 месяцев.
+                           </div>
+                           <a href="#" class="reviews__btn button read">
+                              <span>Читать дальше</span>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="reviews__slide">
+                        <div class="reviews__item">
+                           <div class="reviews__top">
+                              <div class="reviews__img">
+                                 <img src="img/reviews/02.png" alt="">
+                              </div>
+                              <div class="reviews__info">
+                                 <div class="reviews__name">
+                                    Михаил Шумов
+                                 </div>
+                                 <div class="reviews__city">
+                                    г. Воронеж
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="reviews__text">
+                              Я открыла кофейню по франшизе в 2021 году, особо не рассчитывая на прибыльность в
+                              первые два года, но профессиональный подход и обучение помогли нам дойти до точки
+                              окупаемости уже через 8 месяцев.
+                              Я открыла кофейню по франшизе в 2021 году, особо не рассчитывая на прибыльность в
+                              первые два года, но профессиональный подход и обучение помогли нам дойти до точки
+                              окупаемости уже через 8 месяцев.
+                           </div>
+                           <a href="#" class="reviews__btn button read">
+                              <span>Читать дальше</span>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="reviews__next">
+                     <div class="custom-arrow-next">
+                        <span>
+                           Смотреть больше
+                        </span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row margin-bottom-row">
+            <div class="container">
+               <div class="form">
+                  <div class="form__img">
+                     <img src="img/form/01.png" alt="">
+                  </div>
+                  <div class="form__info">
+                     <div class="form-title">
+                        Оставьте заявку и мы позвоним вам в течение 10 минут
+                     </div>
+                     <form action="#">
+                        <div class="form-row">
+                           <div class="form-items">
+                              <div class="form-item">
+                                 <div class="form-label">
+                                    Ваш номер телефона
+                                 </div>
+                                 <input type="tel" class="form-input" placeholder="+7 (000) 000 - 00 - 00">
+                              </div>
+                              <div class="form-item">
+                                 <div class="form-label">
+                                    Ваше имя
+                                 </div>
+                                 <input type="text" class="form-input">
+                              </div>
+                           </div>
+                           <div class="form-submit">
+                              <button class="form-button button">
+                                 <span>Получить консультацию</span>
+                              </button>
+                              <div class="form-politics">
+                                 <label>
+                                    <input type="checkbox">
+                                    <span>Согласен с политикой конфиденциальности</span>
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row margin-bottom-row" id="gallery">
+            <div class="container">
+               <div class="title">
+                  галерея открытых кофеен
+               </div>
+               <div class="gallery__slider">
+                  <div class="gallery__slide">
+                     <a href="img/gallery/01.png" class="gallery__item" data-fancybox="gallery">
+                        <img src="img/gallery/01.png" alt="">
+                     </a>
+                  </div>
+                  <div class="gallery__slide">
+                     <a href="img/gallery/02.png" class="gallery__item" data-fancybox="gallery">
+                        <img src="img/gallery/02.png" alt="">
+                     </a>
+                  </div>
+                  <div class="gallery__slide">
+                     <a href="img/gallery/03.png" class="gallery__item" data-fancybox="gallery">
+                        <img src="img/gallery/03.png" alt="">
+                     </a>
+                  </div>
+                  <div class="gallery__slide">
+                     <a href="img/gallery/04.png" class="gallery__item" data-fancybox="gallery">
+                        <img src="img/gallery/04.png" alt="">
+                     </a>
+                  </div>
+                  <div class="gallery__slide">
+                     <a href="img/gallery/05.png" class="gallery__item" data-fancybox="gallery">
+                        <img src="img/gallery/05.png" alt="">
+                     </a>
+                  </div>
+               </div>
+               <div class="gallery-nav__slider">
+                  <div class="gallery-nav__slide">
+                     <div class="gallery-nav__item">
+                        <img src="img/gallery/01.png" alt="">
+                     </div>
+                  </div>
+                  <div class="gallery-nav__slide">
+                     <div class="gallery-nav__item">
+                        <img src="img/gallery/02.png" alt="">
+                     </div>
+                  </div>
+                  <div class="gallery-nav__slide">
+                     <div class="gallery-nav__item">
+                        <img src="img/gallery/03.png" alt="">
+                     </div>
+                  </div>
+                  <div class="gallery-nav__slide">
+                     <div class="gallery-nav__item">
+                        <img src="img/gallery/04.png" alt="">
+                     </div>
+                  </div>
+                  <div class="gallery-nav__slide">
+                     <div class="gallery-nav__item">
+                        <img src="img/gallery/05.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row margin-bottom-row">
+            <div class="container">
+               <div class="title">
+                  Наши партнёры
+               </div>
+               <div class="partners">
+                  <div class="partners__slider">
+                     <div class="partners__slide">
+                        <div class="partners__item">
+                           <img src="img/partners/01.png" alt="">
+                        </div>
+                     </div>
+                     <div class="partners__slide">
+                        <div class="partners__item">
+                           <img src="img/partners/02.png" alt="">
+                        </div>
+                     </div>
+                     <div class="partners__slide">
+                        <div class="partners__item">
+                           <img src="img/partners/03.png" alt="">
+                        </div>
+                     </div>
+                     <div class="partners__slide">
+                        <div class="partners__item">
+                           <img src="img/partners/04.png" alt="">
+                        </div>
+                     </div>
+                     <div class="partners__slide">
+                        <div class="partners__item">
+                           <img src="img/partners/05.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="partners-decor">
+                     <div class="partners-decor-item partners-decor-1" data-movement="2">
+                        <img src="img/partners/decor-1.png" alt="">
+                     </div>
+                     <div class="partners-decor-item partners-decor-2" data-movement="-3">
+                        <img src="img/partners/decor-2.png" alt="">
+                     </div>
+                     <div class="partners-decor-item partners-decor-3" data-movement="4">
+                        <img src="img/partners/decor-3.png" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row margin-bottom-row" id="faq">
+            <div class="container">
+               <div class="title">
+                  Остались вопросы?
+               </div>
+               <div class="faq">
+                  <div class="faq__item">
+                     <div class="faq__header">
+                        <div class="faq__title">
+                           Почему нам стоит доверять?
+                        </div>
+                     </div>
+                     <div class="faq__body">
+                        Потому что нашей сети кофеен уже более 7 лет, и каждый год наши партнёры открывают по 70 точек в
+                        год. Наши доходы растут вместе с вашими. Плюс мы всегда улучшаем качество оборудования и кофе.
+                        Переходим на более элитные сорта и на более дорогое оборудование, потому что наша главная цель -
+                        качественный продукт. Также особое внимание мы уделяем мерчу и дизайну наших точек.
+                     </div>
+                     <div class="faq__btn"></div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__header">
+                        <div class="faq__title">
+                           Почему нам стоит доверять?
+                        </div>
+                     </div>
+                     <div class="faq__body">
+                        Потому что нашей сети кофеен уже более 7 лет, и каждый год наши партнёры открывают по 70 точек в
+                        год. Наши доходы растут вместе с вашими. Плюс мы всегда улучшаем качество оборудования и кофе.
+                        Переходим на более элитные сорта и на более дорогое оборудование, потому что наша главная цель -
+                        качественный продукт. Также особое внимание мы уделяем мерчу и дизайну наших точек.
+                     </div>
+                     <div class="faq__btn"></div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__header">
+                        <div class="faq__title">
+                           Почему нам стоит доверять?
+                        </div>
+                     </div>
+                     <div class="faq__body">
+                        Потому что нашей сети кофеен уже более 7 лет, и каждый год наши партнёры открывают по 70 точек в
+                        год. Наши доходы растут вместе с вашими. Плюс мы всегда улучшаем качество оборудования и кофе.
+                        Переходим на более элитные сорта и на более дорогое оборудование, потому что наша главная цель -
+                        качественный продукт. Также особое внимание мы уделяем мерчу и дизайну наших точек.
+                     </div>
+                     <div class="faq__btn"></div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__header">
+                        <div class="faq__title">
+                           Почему нам стоит доверять?
+                        </div>
+                     </div>
+                     <div class="faq__body">
+                        Потому что нашей сети кофеен уже более 7 лет, и каждый год наши партнёры открывают по 70 точек в
+                        год. Наши доходы растут вместе с вашими. Плюс мы всегда улучшаем качество оборудования и кофе.
+                        Переходим на более элитные сорта и на более дорогое оборудование, потому что наша главная цель -
+                        качественный продукт. Также особое внимание мы уделяем мерчу и дизайну наших точек.
+                     </div>
+                     <div class="faq__btn"></div>
+                  </div>
+                  <div class="faq__item">
+                     <div class="faq__header">
+                        <div class="faq__title">
+                           Почему нам стоит доверять?
+                        </div>
+                     </div>
+                     <div class="faq__body">
+                        Потому что нашей сети кофеен уже более 7 лет, и каждый год наши партнёры открывают по 70 точек в
+                        год. Наши доходы растут вместе с вашими. Плюс мы всегда улучшаем качество оборудования и кофе.
+                        Переходим на более элитные сорта и на более дорогое оборудование, потому что наша главная цель -
+                        качественный продукт. Также особое внимание мы уделяем мерчу и дизайну наших точек.
+                     </div>
+                     <div class="faq__btn"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="index-row margin-bottom-row" id="contacts">
+            <div class="container">
+               <div class="title">
+                  Контакты
+               </div>
+               <div class="contacts">
+                  <div class="contacts__row">
+                     <div class="contacts__item">
+                        <div class="contacts__title">
+                           позвонить
+                        </div>
+                        <div class="contacts__links">
+                           <a href="tel:+79007007070">+ 7 (900) 700 - 70 -70</a>
+                           <a href="tel:+79007006060">+ 7 (900) 700 - 60 - 60</a>
+                        </div>
+                     </div>
+                     <div class="contacts__item">
+                        <div class="contacts__title">
+                           написать
+                        </div>
+                        <div class="contacts__links">
+                           <a href="mailto:supportcoffe@yam.ru">supportcoffe@yam.ru</a>
+                           <a href="mailto:hrcoffee@yam.ru">hrcoffee@yam.ru</a>
+                        </div>
+                     </div>
+                     <div class="contacts__item">
+                        <div class="contacts__title">
+                           подписаться
+                        </div>
+                        <div class="contacts__links">
+                           <div class="contacts__social">
+                              <a href="#">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="44" viewBox="0 0 45 44"
+                                    fill="none">
+                                    <path
+                                       d="M22.6668 3.66699C12.5468 3.66699 4.3335 11.8803 4.3335 22.0003C4.3335 32.1203 12.5468 40.3337 22.6668 40.3337C32.7868 40.3337 41.0002 32.1203 41.0002 22.0003C41.0002 11.8803 32.7868 3.66699 22.6668 3.66699ZM31.1735 16.1337C30.8985 19.0303 29.7068 26.0703 29.1018 29.3153C28.8452 30.6903 28.3318 31.1487 27.8552 31.2037C26.7918 31.2953 25.9852 30.507 24.9585 29.8287C23.3452 28.7653 22.4285 28.1053 20.8702 27.0787C19.0552 25.887 20.2285 25.227 21.2735 24.1637C21.5485 23.8887 26.2418 19.617 26.3335 19.232C26.3462 19.1737 26.3445 19.1131 26.3286 19.0556C26.3126 18.9981 26.2828 18.9454 26.2418 18.902C26.1318 18.8103 25.9852 18.847 25.8568 18.8653C25.6918 18.902 23.1252 20.607 18.1202 23.9803C17.3868 24.4753 16.7268 24.732 16.1402 24.7137C15.4802 24.6953 14.2335 24.347 13.2985 24.0353C12.1435 23.6687 11.2452 23.467 11.3185 22.8253C11.3552 22.4953 11.8135 22.1653 12.6752 21.817C18.0285 19.4887 21.5852 17.9487 23.3635 17.2153C28.4602 15.0887 29.5052 14.722 30.2018 14.722C30.3485 14.722 30.6968 14.7587 30.9168 14.942C31.1002 15.0887 31.1552 15.2903 31.1735 15.437C31.1552 15.547 31.1918 15.877 31.1735 16.1337Z"
+                                       fill="#FFFBF7" />
+                                 </svg>
+                              </a>
+                              <a href="#">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="45" height="44" viewBox="0 0 45 44"
+                                    fill="none">
+                                    <path
+                                       d="M22.167 16.0086C18.8498 16.0086 16.1756 18.7086 16.1756 22C16.1756 25.2914 18.8756 27.9914 22.167 27.9914C25.4584 27.9914 28.1584 25.2914 28.1584 22C28.1584 18.7086 25.4584 16.0086 22.167 16.0086ZM40.167 22C40.167 19.5057 40.167 17.0629 40.0384 14.5686C39.9098 11.6886 39.2413 9.11714 37.1327 7.03429C35.0241 4.92571 32.4784 4.25714 29.5984 4.12857C27.1041 4 24.6613 4 22.167 4C19.6727 4 17.2298 4 14.7356 4.12857C11.8556 4.25714 9.28414 4.92571 7.20128 7.03429C5.09271 9.14286 4.42413 11.6886 4.29556 14.5686C4.16699 17.0629 4.16699 19.5057 4.16699 22C4.16699 24.4943 4.16699 26.9371 4.29556 29.4314C4.42413 32.3114 5.09271 34.8829 7.20128 36.9657C9.30985 39.0743 11.8556 39.7429 14.7356 39.8714C17.2298 40 19.6727 40 22.167 40C24.6613 40 27.1041 40 29.5984 39.8714C32.4784 39.7429 35.0498 39.0743 37.1327 36.9657C39.2413 34.8571 39.9098 32.3114 40.0384 29.4314C40.1927 26.9629 40.167 24.4943 40.167 22ZM22.167 31.2314C17.0498 31.2314 12.9356 27.1171 12.9356 22C12.9356 16.8829 17.0498 12.7686 22.167 12.7686C27.2841 12.7686 31.3984 16.8829 31.3984 22C31.3984 27.1171 27.2841 31.2314 22.167 31.2314ZM31.7841 14.5429C30.6013 14.5429 29.6241 13.5914 29.6241 12.3829C29.6241 11.1743 30.5756 10.2229 31.7841 10.2229C32.9927 10.2229 33.9441 11.1743 33.9441 12.3829C33.9506 12.6645 33.8992 12.9445 33.7931 13.2055C33.6869 13.4665 33.5283 13.7029 33.327 13.9C33.1298 14.1013 32.8935 14.2599 32.6325 14.3661C32.3715 14.4722 32.0915 14.5237 31.8098 14.5171L31.7841 14.5429Z"
+                                       fill="#FFFBF7" />
+                                 </svg>
+                              </a>
+                              <a href="#">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"
+                                    fill="none">
+                                    <mask id="mask0_710_797" style="mask-type:luminance" maskUnits="userSpaceOnUse"
+                                       x="0" y="0" width="36" height="36">
+                                       <path d="M0.250488 0.583008H35.0838V35.4163H0.250488V0.583008Z" fill="white" />
+                                    </mask>
+                                    <g mask="url(#mask0_710_797)">
+                                       <path
+                                          d="M20.9488 0.839953L19.9038 0.693286C16.7632 0.239825 13.5584 0.688437 10.663 1.98682C7.76757 3.28521 5.30089 5.37987 3.55049 8.02662C1.68811 10.5566 0.577895 13.561 0.347617 16.694C0.117339 19.8271 0.776354 22.9615 2.24882 25.7366C2.39952 26.0147 2.49334 26.3201 2.52481 26.6349C2.55629 26.9496 2.52479 27.2675 2.43215 27.57C1.68049 30.155 0.983822 32.7583 0.250488 35.49L1.16715 35.215C3.64215 34.555 6.11716 33.895 8.59215 33.29C9.11455 33.1813 9.65753 33.2325 10.1505 33.4366C12.371 34.5203 14.7977 35.1166 17.2676 35.1852C19.7375 35.2539 22.1935 34.7935 24.4709 33.8349C26.7482 32.8762 28.7941 31.4416 30.4713 29.6272C32.1486 27.8127 33.4183 25.6606 34.1953 23.315C34.9723 20.9695 35.2386 18.4849 34.9763 16.028C34.7141 13.5711 33.9293 11.1987 32.6747 9.07007C31.4201 6.94142 29.7247 5.10574 27.7023 3.68625C25.6799 2.26675 23.3772 1.29628 20.9488 0.839953ZM25.5688 24.8933C24.9025 25.4898 24.09 25.8991 23.214 26.0795C22.338 26.2598 21.4299 26.2048 20.5822 25.92C16.7405 24.8382 13.4076 22.4279 11.1772 19.1183C10.3252 17.9478 9.64027 16.6643 9.14215 15.305C8.87238 14.5162 8.82374 13.6686 9.00149 12.8542C9.17924 12.0398 9.57661 11.2896 10.1505 10.685C10.4299 10.3284 10.8101 10.0642 11.2418 9.9269C11.6734 9.78956 12.1364 9.78539 12.5705 9.91495C12.9372 10.0066 13.1938 10.5383 13.5238 10.9416C13.7915 11.6988 14.105 12.4395 14.4588 13.16C14.7273 13.5275 14.8394 13.9864 14.7707 14.4364C14.702 14.8864 14.4581 15.2909 14.0922 15.5616C13.2672 16.295 13.3955 16.9 13.9822 17.725C15.2791 19.5934 17.0688 21.0657 19.1522 21.9783C19.7388 22.235 20.1788 22.29 20.5638 21.685C20.7288 21.4466 20.9488 21.245 21.1322 21.025C22.1955 19.6866 21.8655 19.705 23.5522 20.4383C24.0893 20.6638 24.61 20.9278 25.1105 21.2266C25.6055 21.52 26.3572 21.8316 26.4672 22.2716C26.573 22.749 26.5451 23.2462 26.3866 23.7088C26.2282 24.1713 25.9452 24.5812 25.5688 24.8933Z"
+                                          fill="#FFFBF7" />
+                                    </g>
+                                 </svg>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="contacts-map">
+                  <div class="contacts-map__title">
+                     наши кофейни на карте
+                  </div>
+                  <div class="contacts-map__row">
+                     <div id="map"></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <div class="hystmodal" id="modal" aria-hidden="true">
+         <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+               <div data-hystclose class="hystmodal__close"></div>
+               <div class="modal-form">
+                  <div class="form__info">
+                     <div class="form-title">
+                        Оставьте заявку и мы позвоним вам в течение 10 минут
+                     </div>
+                     <form action="#">
+                        <div class="form-row">
+                           <div class="form-items">
+                              <div class="form-item">
+                                 <div class="form-label">
+                                    Ваш номер телефона
+                                 </div>
+                                 <input type="tel" class="form-input" placeholder="+7 (000) 000 - 00 - 00">
+                              </div>
+                              <div class="form-item">
+                                 <div class="form-label">
+                                    Ваше имя
+                                 </div>
+                                 <input type="text" class="form-input">
+                              </div>
+                           </div>
+                           <div class="form-submit">
+                              <button class="form-button button">
+                                 <span>Получить консультацию</span>
+                              </button>
+                              <div class="form-politics">
+                                 <label>
+                                    <input type="checkbox">
+                                    <span>Согласен с политикой конфиденциальности</span>
+                                 </label>
+                              </div>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <footer class="footer" itemscope="" itemtype="https://schema.org/WPFooter">
+   <div class="container">
+      <div class="footer__row">
+         <div class="footer__top">
+            <div class="footer__left">
+               <div class="footer__logo">
+                  <a href="#">
+                     <img src="img/logo-footer.png" alt="">
+                  </a>
+               </div>
+               <div class="footer__info">
+                  <div class="footer__title">
+                     Юр. адрес
+                  </div>
+                  <p>
+                     г. Москва, ул. Ленина, 117, д. 45, офис 11
+                  </p>
+               </div>
+               <div class="footer__info">
+                  <div class="footer__title">
+                     Контакты
+                  </div>
+                  <a href="tel:+79007007070">+7 (900) 700 - 70 - 70</a>
+                  <a href="mailto:info@cargox.com">info@cargox.com</a>
+                  <div class="footer__social">
+                     <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                           <path
+                              d="M15 2.5C8.1 2.5 2.5 8.1 2.5 15C2.5 21.9 8.1 27.5 15 27.5C21.9 27.5 27.5 21.9 27.5 15C27.5 8.1 21.9 2.5 15 2.5ZM20.8 11C20.6125 12.975 19.8 17.775 19.3875 19.9875C19.2125 20.925 18.8625 21.2375 18.5375 21.275C17.8125 21.3375 17.2625 20.8 16.5625 20.3375C15.4625 19.6125 14.8375 19.1625 13.775 18.4625C12.5375 17.65 13.3375 17.2 14.05 16.475C14.2375 16.2875 17.4375 13.375 17.5 13.1125C17.5087 13.0727 17.5075 13.0315 17.4966 12.9923C17.4857 12.953 17.4654 12.9171 17.4375 12.8875C17.3625 12.825 17.2625 12.85 17.175 12.8625C17.0625 12.8875 15.3125 14.05 11.9 16.35C11.4 16.6875 10.95 16.8625 10.55 16.85C10.1 16.8375 9.25 16.6 8.6125 16.3875C7.825 16.1375 7.2125 16 7.2625 15.5625C7.2875 15.3375 7.6 15.1125 8.1875 14.875C11.8375 13.2875 14.2625 12.2375 15.475 11.7375C18.95 10.2875 19.6625 10.0375 20.1375 10.0375C20.2375 10.0375 20.475 10.0625 20.625 10.1875C20.75 10.2875 20.7875 10.425 20.8 10.525C20.7875 10.6 20.8125 10.825 20.8 11Z"
+                              fill="#FFFBF7" />
+                        </svg>
+                     </a>
+                     <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                           <mask id="mask0_719_1150" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
+                              width="24" height="24">
+                              <path d="M0.125 0.125H23.875V23.875H0.125V0.125Z" fill="white" />
+                           </mask>
+                           <g mask="url(#mask0_719_1150)">
+                              <path
+                                 d="M14.2375 0.300145L13.525 0.200145C11.3837 -0.109033 9.19856 0.196839 7.22442 1.0821C5.25028 1.96737 3.56845 3.39555 2.375 5.20015C1.10519 6.92512 0.348232 8.97357 0.191224 11.1098C0.0342165 13.2459 0.483545 15.383 1.4875 17.2751C1.59025 17.4648 1.65421 17.673 1.67568 17.8876C1.69714 18.1022 1.67566 18.3189 1.6125 18.5251C1.1 20.2876 0.625 22.0626 0.125 23.9251L0.75 23.7376C2.4375 23.2876 4.125 22.8376 5.8125 22.4251C6.16868 22.3511 6.53889 22.3859 6.875 22.5251C8.389 23.264 10.0435 23.6706 11.7276 23.7174C13.4116 23.7642 15.0862 23.4503 16.6389 22.7967C18.1916 22.1431 19.5866 21.1649 20.7301 19.9278C21.8737 18.6907 22.7394 17.2233 23.2692 15.6241C23.799 14.0249 23.9805 12.3308 23.8017 10.6557C23.6229 8.98049 23.0878 7.36295 22.2324 5.91159C21.377 4.46023 20.2211 3.20864 18.8421 2.2408C17.4632 1.27296 15.8932 0.611276 14.2375 0.300145ZM17.3875 16.7001C16.9332 17.1069 16.3792 17.386 15.7819 17.5089C15.1847 17.6319 14.5655 17.5943 13.9875 17.4001C11.3682 16.6626 9.09577 15.0192 7.575 12.7626C6.99411 11.9646 6.52712 11.0895 6.1875 10.1626C6.00356 9.62486 5.9704 9.04698 6.09159 8.49169C6.21279 7.93639 6.48372 7.42488 6.875 7.01265C7.06548 6.76954 7.32476 6.58943 7.61907 6.49579C7.91337 6.40215 8.22906 6.39931 8.525 6.48765C8.775 6.55015 8.95 6.91264 9.175 7.18764C9.3575 7.70389 9.57125 8.20889 9.8125 8.70014C9.99553 8.95078 10.072 9.26365 10.0251 9.57044C9.97829 9.87724 9.81198 10.153 9.5625 10.3376C9 10.8376 9.0875 11.2501 9.4875 11.8126C10.3718 13.0866 11.592 14.0904 13.0125 14.7126C13.4125 14.8876 13.7125 14.9251 13.975 14.5126C14.0875 14.3501 14.2375 14.2126 14.3625 14.0626C15.0875 13.1501 14.8625 13.1626 16.0125 13.6626C16.3787 13.8164 16.7337 13.9964 17.075 14.2001C17.4125 14.4001 17.925 14.6126 18 14.9126C18.0722 15.2381 18.0532 15.5772 17.9451 15.8925C17.837 16.2079 17.6441 16.4873 17.3875 16.7001Z"
+                                 fill="#FFFBF7" />
+                           </g>
+                        </svg>
+                     </a>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__right">
+               <ul class="footer__menu">
+                  <li>
+                     <a href="#main" class="footer__link">Главная</a>
+                  </li>
+                  <li>
+                     <a href="#format" class="footer__link">Форматы</a>
+                  </li>
+                  <li>
+                     <a href="#franchise" class="footer__link">О компании</a>
+                  </li>
+                  <li>
+                     <a href="#reviews" class="footer__link">Отзывы</a>
+                  </li>
+               </ul>
+               <ul class="footer__menu">
+                  <li>
+                     <a href="#format" class="footer__link">Кейсы</a>
+                  </li>
+                  <li>
+                     <a href="#faq" class="footer__link">FAQ</a>
+                  </li>
+                  <li>
+                     <a href="#gallery" class="footer__link">Галерея</a>
+                  </li>
+                  <li>
+                     <a href="#contacts" class="footer__link">Контакты</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="footer__bottom">
+            <div class="flex-box">
+               <div class="footer__copyright">
+                  © 2024 Coffee. Все права защищены.
+               </div>
+               <div class="footer__links">
+                  <a href="#">Политика конфиденциальности</a>
+                  <a href="#">Помощь</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</footer>
+   </div>
+
+   <script src="js/libraries.min.js?_v=20241118210607"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=30d0f401-780b-4686-a702-4cd1925f73b0&lang=ru_RU&_v=20241118210607"></script>
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js?_v=20241118210607"></script>
+<script src="js/app.js?_v=20241118210607"></script>
+</body>
+
+</html>
